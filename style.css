@@ -1,0 +1,103 @@
+body {
+    font-family: "Playwrite PE";
+    background-color: #415D43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.outbox {
+    width: 700px;
+    background-color: #8FB996;
+    color: black;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: inset 20px 20px 60px #4a604e,
+            inset -20px -20px 60px #d4ffde;
+}
+
+.outbox ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+}
+
+.head {
+    background-color: #709775;
+    border-radius: 10px;
+    width: 50%;
+    margin: 30px auto;
+    box-shadow:  20px 20px 40px #354737,
+             -20px -20px 40px #abe7b3;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.ul div {
+    font-size: 30px;
+    overflow-y: auto;
+}
+
+.delbtn {
+    background-color: #709775;
+    border-radius: 50%;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    box-shadow:  9px 9px 18px #354737,
+             -9px -9px 18px #abe7b3;
+}
+
+h1 {
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 40px;
+}
+
+.io {
+    margin-top: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 85px;
+    width: 80%;
+    font-family: "Playwrite PE";
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #709775;
+    font-size: 20px;
+    box-shadow:  13px 13px 26px #354737,
+             -13px -13px 26px #abe7b3;
+}
+
+#iobtn {
+    height: 80px;
+    width: 80px;
+    font-family: "Poppins";
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 0px;
+    border-radius: 50%;
+    font-size: 40px;
+    background-color: #709775;
+    box-shadow:  13px 13px 26px #354737,
+             -13px -13px 26px #abe7b3;
+}
+input::placeholder {
+    color: black;
+}
